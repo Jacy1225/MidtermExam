@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#FFF3FF;
+    margin: 0px;
+}
+
+header {
+    text-align: center;
+}
+
+.report {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+  
+.report a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.report img {
+    max-width: 60%;
+    max-height: 60%;
+    margin: auto;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+
+}
+  
+  .home img {
+    max-width: 10%;
+    height: auto;
+}
+  

@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#FFF3FF;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+  }
+
+main {
+  padding: 20px;
+}
+
+article {
+  float:left;
+  width: 30.5%;
+}
+
+aside {
+  float: right;
+  width: 65%;
+}
+  
+.person {
+  max-width: 400px;
+  margin: 30px 0px 30px 30px;
+  overflow: hidden;
+}
+
+.person img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+  
+.title-01 {
+  background-color: #E7C6FF;
+  border: 50px solid #E7C6FF;
+  width: 70%;
+}
+
+.nav-place {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 1350px;
+  background-color: #E7C6FF;
+  border-radius: 10px;
+
+}
+
+nav a {
+  margin: 0px 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #FFD6FF;
+  color: #3a0ca3;
+}
+
+
+.clearfix {
+  clear: both;
+}
+
+.card {
+  background-color: #FFDCFF;
+  padding: 10px; 
+  margin: 10px 10px;
+  border-radius: 10px;
+  background-size: cover;
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: auto;
+  transition: width 0.3s ease-in-out;
+}
+
+.card a {
+  display: inline-block;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: white;
+  border-radius: 10px;
+  width: 90%;
+  margin: 20px;
+}
+
+.progress-bar:before {
+  content: '';
+  display: block;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #f72585;
+  transition: width 1s ease-in-out;
+}
+
+.skill-progress .progress-bar[data-width='75']:before {
+  width: 75%;
+}
+
+.skill-progress .progress-bar[data-width='85']:before {
+  width: 85%;
+}
+
+.skill-progress .progress-bar[data-width='60']:before {
+  width: 60%;
+}
+
+.skill-progress .progress-bar[data-width='65']:before {
+  width: 65%;
+}
+
+.subject {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-and-text {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.image-and-text:last-child {
+  margin-right: 0;
+}
+
+.image-and-text img {
+  width: 400px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.image-and-text p {
+  flex: 1;
+}
+
+.clearfix {
+  background-color: #E7C6FF;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+}

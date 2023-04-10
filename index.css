@@ -85,8 +85,8 @@ nav a:hover {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   margin: 10px;
   cursor: auto;
   transition: width 0.3s ease-in-out;
